@@ -76,11 +76,9 @@ h1 {
     background: #14172a;
     border: 2px solid #2a2e4a;
     border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #5a5a66;
-    font-size: 12px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 section { margin-bottom: 36px; }
