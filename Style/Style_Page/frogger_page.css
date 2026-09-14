@@ -64,6 +64,17 @@ h1 {
     margin-bottom: 32px;
 }
 
+.badge_download{
+    display: inline-block;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 700;
+    background: #ba7517;
+    color: #412402;
+    margin-bottom: 32px;
+}
+
 .screenshots {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

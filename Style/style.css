@@ -120,6 +120,17 @@ main {
     font-weight: 700;
 }
 
+.badge_download{
+    display: inline-block;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 700;
+    background: #ba7517;
+    color: #412402;
+    margin-bottom: 32px;
+}
+
 .badge.ready { background: #1d9e75; color: #04342c; }
 .badge.soon { background: #ba7517; color: #412402; }
 
