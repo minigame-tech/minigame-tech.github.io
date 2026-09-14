@@ -159,6 +159,13 @@ ul { padding-left: 20px; margin-top: 8px; }
 .dl-icon { font-size: 26px; }
 .dl-sub { font-size: 10px; color: #a8a8b3; font-weight: 400; }
 
+/*Rimuovere quando il download sarà disponibile*/
+.dl-btn.disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+}
+
 footer {
     position: relative;
     z-index: 1;
