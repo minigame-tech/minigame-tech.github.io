@@ -4,7 +4,7 @@ A collection of minigames and clones of classic retro arcade games, built from s
 
 [![Site](https://img.shields.io/badge/site-online-brightgreen)](https://minigame-tech.github.io)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
 **🔗 Live site:** [minigame-tech.github.io](https://minigame-tech.github.io)
 
