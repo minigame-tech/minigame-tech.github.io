@@ -133,6 +133,7 @@ main {
 
 .badge.ready { background: #1d9e75; color: #04342c; }
 .badge.soon { background: #ba7517; color: #412402; }
+.badge.programmed { background: #d84a30; color: #412402; }
 
 .card.disabled {
     opacity: 0.55;
