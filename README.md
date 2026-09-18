@@ -22,10 +22,6 @@ A collection of minigames and clones of classic retro arcade games, built from s
 | 2048 | 🗓️ Planned | 🐧 | 🪟 |
 | Donky Kong | 🗓️ Planned | 🐧 | 🪟 |
 
-## 🕹️ Preview
-
-<!-- Add gameplay screenshots or GIFs here, e.g.: -->
-<!-- ![Frogger gameplay](assets/frogger-demo.gif) -->
 
 ## 🛠️ Tech stack
 
