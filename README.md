@@ -17,6 +17,10 @@ A collection of minigames and clones of classic retro arcade games, built from s
 | Frogger | ✅ Available | 🐧 | 🪟 |
 | Pacman | 🔧 In progress | 🐧 | 🪟 |
 | Space Invaders | 🔧 In progress | 🐧 | 🪟 |
+| Tetris | 🗓️ Planned | 🐧 | 🪟 |
+| Snake | 🗓️ Planned | 🐧 | 🪟 |
+| 2048 | 🗓️ Planned | 🐧 | 🪟 |
+| Donky Kong | 🗓️ Planned | 🐧 | 🪟 |
 
 ## 🕹️ Preview
 
