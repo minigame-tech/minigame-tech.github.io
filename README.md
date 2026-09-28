@@ -1,52 +1,89 @@
-# 🎮 Minigame Tech
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Minigame%20Tech&fontSize=90&animation=fadeIn&fontAlignY=30&desc=A%20collection%20of%20retro%20arcade%20classics&descAlignY=65" alt="Minigame Tech Banner"/>
+</div>
 
-A collection of minigames and clones of classic retro arcade games, built from scratch in Python and distributed as free downloadable executables.
+<div align="center">
 
-[![Site](https://img.shields.io/badge/site-online-brightgreen)](https://minigame-tech.github.io)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+[![Website](https://img.shields.io/badge/Website-Online-brightgreen.svg?style=for-the-badge&logo=vercel)](https://minigame-tech.github.io)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)](LICENSE.md)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey.svg?style=for-the-badge)]()
 
-**🔗 Live site:** [minigame-tech.github.io](https://minigame-tech.github.io)
+*A growing collection of minigames and clones of classic retro arcade games, built from scratch in Python and distributed as free downloadable executables.*
+
+</div>
 
 ---
 
-## 📦 Available games
+## 📑 Table of Contents
+- [About the Project](#-about-the-project)
+- [Available Games](#-available-games)
+- [Tech Stack](#-tech-stack)
+- [Installation & Download](#-installation--download)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-| Game | Status | Linux | Windows |
-|---|---|:---:|:---:|
-| Frogger | ✅ Available | 🐧 | 🪟 |
-| Pacman | 🔧 In progress | 🐧 | 🪟 |
-| Space Invaders | 🔧 In progress | 🐧 | 🪟 |
-| Tetris | 🗓️ Planned | 🐧 | 🪟 |
-| Snake | 🗓️ Planned | 🐧 | 🪟 |
-| 2048 | 🗓️ Planned | 🐧 | 🪟 |
-| Donky Kong | 🗓️ Planned | 🐧 | 🪟 |
+## 📖 About the Project
 
+**Minigame Tech** is a personal initiative aimed at reviving classic retro arcade games while pushing the boundaries of Python-based game development. Initially conceived as a collection of school projects (including high-school final exam submissions like *Frogger* and *Pacman*), the repository has grown into a comprehensive platform for free, standalone executables available for both Linux and Windows.
 
-## 🛠️ Tech stack
+Whether you're a fan of the golden age of arcade gaming or a developer interested in Python game mechanics, this project offers a clean, robust, and constantly evolving library of classics.
 
-- **Language:** Python
-- **Libraries:** _(e.g. Pygame — update with what you actually use)_
-- **Build/packaging:** PyInstaller
+## 🎮 Available Games
 
-## 📥 Download
+| Game Title | Current Status | Linux Support | Windows Support |
+|:---|:---:|:---:|:---:|
+| **Frogger** | ✅ **Available** | 🐧 | 🪟 |
+| **Pacman** | ✅ **Available** | 🐧 |
+| **Space Invaders** | 🔧 *In Progress* | 🐧 | 🪟 |
+| **Tetris** | 🗓️ *Planned* | 🐧 | 🪟 |
+| **Snake** | 🗓️ *Planned* | 🐧 | 🪟 |
+| **2048** | 🗓️ *Planned* | 🐧 | 🪟 |
+| **Donkey Kong** | 🗓️ *Planned* | 🐧 | 🪟 |
 
-1. Go to [minigame-tech.github.io](https://minigame-tech.github.io)
-2. Pick the game you're interested in
-3. Download the executable for your operating system from the download section
+## 🛠️ Tech Stack
 
-## 📖 About the project
+This project is built utilizing a modern Python ecosystem for optimal performance and cross-platform compatibility:
 
-Minigame Tech is a personal collection of games built for practice and experimentation, some tied to school projects (Frogger and Pacman are part of a final high-school exam project).
+- **Core Language:** [Python 3.x](https://www.python.org/)
+- **Game Engine:** [Pygame](https://www.pygame.org/) *(Standard library for rendering and event handling)*
+- **Build & Packaging:** [PyInstaller](https://pyinstaller.org/) *(Used to generate standalone executables)*
+- **Hosting:** GitHub Pages
+
+## 📥 Installation & Download
+
+No source code compilation is required to play! Follow these steps to get started:
+
+1. Navigate to the official website: **[minigame-tech.github.io](https://minigame-tech.github.io)**
+2. Browse the catalog and select your desired game.
+3. Download the standalone executable specific to your operating system (Linux or Windows).
+4. Run the executable and enjoy!
 
 ## 🚧 Roadmap
 
-Coming up next: Snake, Pong, Breakout, and other retro classics, with multi-platform support from release.
+We are continuously working to expand the Minigame Tech universe. Upcoming releases include:
+
+- [ ] **Snake** - The classic Nokia-style crawler.
+- [ ] **Pong** - The quintessential arcade tennis game.
+- [ ] **Breakout** - Block-breaking action.
+- [ ] Implementation of global high scores.
+- [ ] Controller support integration.
 
 ## 🤝 Contributing
 
-This is a personal project and not actively open to external contributions at the moment. Bug reports and suggestions are still welcome via [Issues](../../issues).
+Currently, **Minigame Tech** is maintained as a personal project and is not actively accepting external pull requests. However, community feedback is highly valued! 
+
+If you encounter any bugs, have feature requests, or want to suggest improvements, please feel free to open an issue:
+👉 [**Open an Issue**](../../issues)
 
 ## 📄 License
 
-Distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This repository and its contents are **Proprietary** to Salvatore Cipriano. 
+
+The source code is publicly available for viewing purposes only. No permission is granted to copy, modify, reproduce, distribute, publish, sublicense, sell, or otherwise use any part of this repository without prior written permission. For more detailed information, please review the [LICENSE.md](LICENSE.md) file located in the root directory.
+
+---
+<div align="center">
+  <i>Developed with ❤️ by <a href="https://github.com/minigame-tech">Salvatore Cipriano</a>.</i>
+</div>

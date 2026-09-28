@@ -1,6 +1,8 @@
-Copyright (c) 2026 CIPRIANO SALVATORE
+# Proprietary License
 
-All rights reserved.
+**Copyright (c) 2026 CIPRIANO SALVATORE**
+
+**All rights reserved.**
 
 This repository and its contents, including all source code, files, assets, designs, and other materials, are proprietary to the copyright holder.
 
@@ -8,4 +10,4 @@ The source code is publicly available for viewing purposes only. No permission i
 
 Forking, copying, or creating derivative works from this repository for personal or commercial use is not permitted without prior written permission.
 
-All rights reserved.
+**All rights reserved.**
