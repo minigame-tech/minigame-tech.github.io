@@ -6,105 +6,173 @@
     <meta name="google-site-verification" content="u1pR7ki5lb8jtUChC6h1UYOW1YPz_jhIn_7nUxBDBfI"/>
     <link rel="icon" type="image/jpeg" href="Logo.jpeg">
 
-    <!-- Link ai fogli di stile -->
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fogli di stile -->
     <link rel="stylesheet" href="./Style/style.css">
 
     <!-- SEO Base -->
-    <title>Minigame Tech - Minigiochi e remake retrò gratis da scaricare</title>
-    <meta name="description" content="Raccolta di minigiochi e remake retrò (Pacman, Frogger, Space Invaders e molto altro) gratuiti da scaricare. Eseguibili per Linux e Windows">
-    <meta name="keywords" content="minigame, minigiochi gratis, remake pacman, remake frogger, giochi retrò, giochi pixel art, giochi linux e Windows">
+    <title>Minigame Tech - Arcade Remakes & Retrogaming</title>
+    <meta name="description" content="La casa dei remake arcade perfetti. Scarica gratuitamente cloni open source di classici come Pacman, Frogger e molti altri per Linux e Windows.">
+    <meta name="keywords" content="minigame, minigiochi gratis, remake pacman, remake frogger, giochi retrò, retrogaming, giochi linux, giochi windows, pixel art">
     <link rel="canonical" href="https://minigame-tech.github.io/">
 
-    <!-- Open Graph (Per la condivisione sui social e chat come Discord/WhatsApp) -->
-    <meta property="og:title" content="Minigame Tech - Minigiochi retrò gratis">
-    <meta property="og:description" content="Remake di giochi classici, gratis e open source, scaricabili per Linux e Windows.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Minigame Tech - Arcade Remakes & Retrogaming">
+    <meta property="og:description" content="Rivivi i grandi classici. Remake di giochi gratuiti, open source, per Linux e Windows.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://minigame-tech.github.io/">
 </head>
 <body>
+    <!-- Effetto CRT Overlay e Grid -->
+    <div class="scanlines"></div>
     <div class="grid-bg"></div>
 
-    <header>
-        <div class="logo">MINI GAME<span> TECH</span></div>
-        <p>Racconta di minigiochi e remake fatti in casa</p>
-    </header>
-
-    <!---Main part of the web-site--->
-    <main>
-        <div class="grid">
-
-            <!--- FROGGER --->
-            <a class="card" href="Pages/frogger.html">
-                <div class="thumb">🐸</div>
-                <div class="card-body">
-                    <div class="card-title">FROGGER</div>
-                    <p class="card-desc">Il classico gioco di attraversamento della strada</p>
-                    <span class="badge ready">Disponibile dal 14/09/2026</span>
-                    <span class="badge_download">Download disponibile</span>
-                </div>
-            </a>
-
-            <!--- PACMAN --->
-            <a class="card" href="Pages/pacman.html">
-                <div class="thumb">👻</div>
-                <div class="card-body">
-                    <div class="card-title">PACMAN</div>
-                    <p>Il classico gioco di divoramento della frutta scappando dai fantasmi</p>
-                    <span class="badge ready">Disponibile</span>
-                    <span class="badge_download">Download disponibile</span>
-                </div>
-            </a>
-
-            <!--- SPACE INVADERS --->
-            <div class="card disabled">
-                <div class="thumb">👾</div>
-                <div class="card-body">
-                    <div class="card-title">SPACE INVADERS</div>
-                    <p class="card-desc">Il classico gioco di abbattimento di navi aliene in arrivo, ancora in sviluppo</p>
-                    <span class="badge soon">In arrivo</span>
-                </div>
-            </div>
-
-            <!--- TETRIS --->
-            <div class="card disabled">
-                <div class="thumb">🧱</div>
-                <div class="card-body">
-                    <div class="card-title">TETRIS</div>
-                    <p class="card-desc">Il classico puzzle a blocchi che cadono</p>
-                    <span class="badge programmed">In programma</span>
-                </div>
-            </div>
-
-            <!--- SNAKE --->
-            <div class="card disabled">
-                <div class="thumb">🐍</div>
-                <div class="card-body">
-                    <div class="card-title">SNAKE</div>
-                    <p class="card-desc">Muovi il serpente, cresci, non toccarti da solo</p>
-                    <span class="badge programmed">In programma</span>
-                </div>
-            </div>
-
-            <!--- 2048 --->
-            <div class="card disabled">
-                <div class="thumb">🔢</div>
-                <div class="card-body">
-                    <div class="card-title">2048</div>
-                    <p class="card-desc">Unisci i numeri fino a raggiungere 2048</p>
-                    <span class="badge programmed">In programma</span>
-                </div>
-            </div>
-
-            <!--- DONKEY KONG --->
-            <div class="card disabled">
-                <div class="thumb">🦍</div>
-                <div class="card-body">
-                    <div class="card-title">DONKEY KONG</div>
-                    <p class="card-desc">Platform a schermate fisse, salti e ostacoli</p>
-                    <span class="badge programmed">In programma</span>
-                </div>
+    <!-- Navigazione -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-logo">MGT<span>.</span></div>
+            <div class="nav-links">
+                <a href="https://github.com/minigame-tech" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="mailto:codelab.italia@gmail.com"><i class="fa-solid fa-envelope"></i> Contatti</a>
             </div>
         </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="badge-pill pulse"><i class="fa-solid fa-code-commit"></i> Nuova Versione Online</div>
+            <h1 class="logo">MINI GAME<span> TECH</span></h1>
+            <p class="subtitle">Sviluppo indipendente di cloni e remake arcade.<br>Riscopri i classici, progettati da zero e pronti da giocare.</p>
+            <div class="hero-actions">
+                <a href="#games" class="btn btn-primary">Esplora i Giochi <i class="fa-solid fa-gamepad"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="games">
+        <section class="game-section">
+            <h2 class="section-title"><i class="fa-solid fa-bolt"></i> Disponibili Ora</h2>
+            <div class="grid">
+                <!-- FROGGER -->
+                <a class="card glass-effect" href="Pages/frogger.html">
+                    <div class="card-glow"></div>
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #1d9e75, #0f6e56);">
+                        <span class="emoji">🐸</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h3 class="card-title">FROGGER</h3>
+                            <span class="badge ready"><i class="fa-solid fa-check"></i> Live</span>
+                        </div>
+                        <p class="card-desc">Il re degli attraversamenti pericolosi. Schiva il traffico e salta sui tronchi in questo remake fedele al millimetro.</p>
+                        <div class="card-footer">
+                            <span class="platform-icon"><i class="fa-brands fa-linux"></i></span>
+                            <span class="platform-icon"><i class="fa-brands fa-windows"></i></span>
+                            <span class="badge_download"><i class="fa-solid fa-download"></i> Download</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- PACMAN -->
+                <a class="card glass-effect" href="Pages/pacman.html">
+                    <div class="card-glow"></div>
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #ffd166, #d84a30);">
+                        <span class="emoji">👻</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h3 class="card-title">PACMAN</h3>
+                            <span class="badge ready"><i class="fa-solid fa-check"></i> Live</span>
+                        </div>
+                        <p class="card-desc">Labirinti, fantasmini e pillole energetiche. L'icona degli anni '80 torna in una veste ricostruita e ottimizzata.</p>
+                        <div class="card-footer">
+                            <span class="platform-icon"><i class="fa-brands fa-linux"></i></span>
+                            <span class="badge_download"><i class="fa-solid fa-download"></i> Download</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="game-section mt-5">
+            <h2 class="section-title"><i class="fa-solid fa-code"></i> In Sviluppo & Progetti Futuri</h2>
+            <div class="grid">
+                <!-- SPACE INVADERS -->
+                <div class="card glass-effect disabled">
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #4b3080, #2c1a4d);">
+                        <span class="emoji">👾</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">SPACE INVADERS</h3>
+                        <p class="card-desc">L'orda aliena sta arrivando. Difendi la Terra con i tuoi cannoni laser.</p>
+                        <span class="badge soon"><i class="fa-solid fa-hammer"></i> In Sviluppo</span>
+                    </div>
+                </div>
+
+                <!-- TETRIS -->
+                <div class="card glass-effect disabled">
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #235882, #11324c);">
+                        <span class="emoji">🧱</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">TETRIS</h3>
+                        <p class="card-desc">L'intramontabile puzzle russo. Incastra i tetramini e pulisci le linee.</p>
+                        <span class="badge programmed"><i class="fa-solid fa-calendar"></i> In Programma</span>
+                    </div>
+                </div>
+
+                <!-- SNAKE -->
+                <div class="card glass-effect disabled">
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #276b3a, #133b1e);">
+                        <span class="emoji">🐍</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">SNAKE</h3>
+                        <p class="card-desc">Il classico che ha fatto la storia dei telefoni cellulari.</p>
+                        <span class="badge programmed"><i class="fa-solid fa-calendar"></i> In Programma</span>
+                    </div>
+                </div>
+
+                <!-- 2048 -->
+                <div class="card glass-effect disabled">
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #b8860b, #6b4c03);">
+                        <span class="emoji">🔢</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">2048</h3>
+                        <p class="card-desc">Scorri, unisci e raggiungi la mistica tessera 2048.</p>
+                        <span class="badge programmed"><i class="fa-solid fa-calendar"></i> In Programma</span>
+                    </div>
+                </div>
+
+                <!-- DONKEY KONG -->
+                <div class="card glass-effect disabled">
+                    <div class="thumb" style="background-image: linear-gradient(135deg, #a33b3b, #5e1c1c);">
+                        <span class="emoji">🦍</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">DONKEY KONG</h3>
+                        <p class="card-desc">Il primo vero platform della storia. Scala i tralicci e salva Pauline.</p>
+                        <span class="badge programmed"><i class="fa-solid fa-calendar"></i> In Programma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">MGT<span>.</span></div>
+            <p>&copy; 2026 Minigame Tech. Sviluppato da <a href="https://github.com/minigame-tech" target="_blank">Salvatore</a>.</p>
+            <p class="small-text">Tutti i loghi e i nomi dei giochi originali appartengono ai rispettivi proprietari. Questo progetto ha finalità unicamente educative e non a scopo di lucro.</p>
+        </div>
+    </footer>
 </body>
 </html>
