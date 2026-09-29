@@ -35,7 +35,7 @@ Whether you're a fan of the golden age of arcade gaming or a developer intereste
 | Game Title | Current Status | Linux Support | Windows Support |
 |:---|:---:|:---:|:---:|
 | **Frogger** | ✅ **Available** | 🐧 | 🪟 |
-| **Pacman** | ✅ **Available** | 🐧 |
+| **Pacman** | ✅ **Available** | 🐧 | Not avaliable |
 | **Space Invaders** | 🔧 *In Progress* | 🐧 | 🪟 |
 | **Tetris** | 🗓️ *Planned* | 🐧 | 🪟 |
 | **Snake** | 🗓️ *Planned* | 🐧 | 🪟 |
