@@ -11,7 +11,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey.svg?style=for-the-badge)](#-download)
 [![License: Proprietary](https://img.shields.io/badge/License-Source--available-red.svg?style=for-the-badge)](LICENSE.md)
 
-**Classic retro arcade games, rebuilt from scratch in Python and ready to play as standalone downloads. No installation, no Python required.**
+**Classic retro arcade games, rebuilt from scratch in Python, C# and ready to play as standalone downloads. No installation, no Python required.**
 
 [**Play now →**](https://minigame-tech.github.io) · [Report a bug](../../issues) · [Contact](#-contact)
 
