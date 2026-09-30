@@ -6,6 +6,7 @@
 
 [![Website](https://img.shields.io/badge/Website-Online-brightgreen.svg?style=for-the-badge&logo=vercel)](https://minigame-tech.github.io)
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp)](https://learn.microsoft.com/dotnet/csharp/)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)](LICENSE.md)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey.svg?style=for-the-badge)]()
 
@@ -26,7 +27,7 @@
 
 ## 📖 About the Project
 
-**Minigame Tech** is a personal initiative aimed at reviving classic retro arcade games while pushing the boundaries of Python-based game development. Initially conceived as a collection of school projects (including high-school final exam submissions like *Frogger* and *Pacman*), the repository has grown into a comprehensive platform for free, standalone executables available for both Linux and Windows.
+**Minigame Tech** is a personal initiative aimed at reviving classic retro arcade games while pushing the boundaries of Python-based and C# game development. Initially conceived as a collection of school projects (including high-school final exam submissions like *Frogger* and *Pacman*), the repository has grown into a comprehensive platform for free, standalone executables available for both Linux and Windows.
 
 Whether you're a fan of the golden age of arcade gaming or a developer interested in Python game mechanics, this project offers a clean, robust, and constantly evolving library of classics.
 
@@ -44,11 +45,11 @@ Whether you're a fan of the golden age of arcade gaming or a developer intereste
 
 ## 🛠️ Tech Stack
 
-This project is built utilizing a modern Python ecosystem for optimal performance and cross-platform compatibility:
+This project is built using a dual-language approach to balance rapid development, portability, and performance:
 
-- **Core Language:** [Python 3.x](https://www.python.org/)
-- **Game Engine:** [Pygame](https://www.pygame.org/) *(Standard library for rendering and event handling)*
-- **Build & Packaging:** [PyInstaller](https://pyinstaller.org/) *(Used to generate standalone executables)*
+- **Core Language:** [Python 3.x](https://www.python.org/), [C#](https://dotnet.microsoft.com/it-it/languages/csharp)
+- **Game Engine / Frameworks:** [Pygame](https://www.pygame.org/), [Rider](https://www.jetbrains.com/rider/) *(or .NET-based game tooling)*
+- **Build & Packaging:** [PyInstaller](https://pyinstaller.org/), [.NET / MSBuild](https://dotnet.microsoft.com/)
 - **Hosting:** GitHub Pages
 
 ## 📥 Installation & Download
