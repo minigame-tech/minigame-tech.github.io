@@ -32,7 +32,7 @@
 
 ## 📖 About
 
-**Minigame Tech** is a growing collection of clones of classic arcade games, written in Python with Pygame and distributed as free standalone executables for Linux and Windows.
+**Minigame Tech** is a growing collection of clones of classic arcade games, written in Python, C# and distributed as free standalone executables for Linux and Windows.
 
 Each game comes with a menu, an in-game tutorial and keyboard controls, so you can download it and start playing right away. The project started as a set of school projects (including high-school final exam work such as *Frogger* and *Pacman*) and is now a personal, continuously evolving library of retro classics.
 
