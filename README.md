@@ -56,7 +56,7 @@ Each game comes with a menu, an in-game tutorial and keyboard controls, so you c
 |:---|:---|:---|:---|
 | **Frogger** | Arrow keys | `Enter` / `Esc` | Reach the opposite bank 5 times to win |
 | **Pacman** | Arrow keys or `W` `A` `S` `D` | `Enter` / `Esc` | Eat every dot and avoid the ghosts |
-| **SPACE INVADERS** | Arrow key or `A` `D` | Destroy every enemy |
+| **SPACE INVADERS** | Arrow key or `A` `D` | `Enter` / `Esc` | Destroy every enemy
 
 Both games start with **3 lives**.
 
