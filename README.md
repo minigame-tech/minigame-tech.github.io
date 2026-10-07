@@ -44,8 +44,8 @@ Each game comes with a menu, an in-game tutorial and keyboard controls, so you c
 |:---|:---:|:---:|:---:|
 | **Frogger** | ✅ Available | ✅ | ✅ |
 | **Pacman** | ✅ Available | ✅ | ❌ |
-| **Space Invaders** | 🔧 In progress | 🔜 | 🔜 |
-| **Donkey Kong** | 🗓️ Planned | 🔜 | 🔜 |
+| **Space Invaders** | ✅ Available | ✅ | ✅ |
+| **Donkey Kong** | 🔧 In progress | 🔜 | 🔜 |
 | **Tetris** | 🗓️ Planned | 🔜 | 🔜 |
 | **Snake** | 🗓️ Planned | 🔜 | 🔜 |
 | **2048** | 🗓️ Planned | 🔜 | 🔜 |
