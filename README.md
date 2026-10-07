@@ -93,8 +93,8 @@ chmod +x ./game-name
 
 - [x] Frogger
 - [x] Pacman
-- [ ] Space Invaders *(in progress)*
-- [ ] Donkey Kong
+- [x] Space Invaders *(in progress)*
+- [ ] Donkey Kong *(in progress)*
 - [ ] Tetris
 - [ ] Snake
 - [ ] 2048
