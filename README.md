@@ -45,10 +45,10 @@ Each game comes with a menu, an in-game tutorial and keyboard controls, so you c
 | **Frogger** | ✅ Available | ✅ | ✅ |
 | **Pacman** | ✅ Available | ✅ | ❌ |
 | **Space Invaders** | ✅ Available | ✅ | ✅ |
-| **Donkey Kong** | 🔧 In progress | 🔜 | 🔜 |
-| **Tetris** | 🗓️ Planned | 🔜 | 🔜 |
+| **Tetris** | 🔧 In progress | 🔜 | 🔜 |
 | **Snake** | 🗓️ Planned | 🔜 | 🔜 |
 | **2048** | 🗓️ Planned | 🔜 | 🔜 |
+| **Donkey Kong** | 🗓️ Planned | 🔜 | 🔜 |
 
 ### Controls
 
