@@ -95,8 +95,8 @@ chmod +x ./game-name
 - [x] Frogger
 - [x] Pacman
 - [x] Space Invaders
-- [ ] Donkey Kong *(in progress)*
-- [ ] Tetris
+- [ ] Tetris *(in progress)*
+- [ ] Donkey Kong
 - [ ] Snake
 - [ ] 2048
 - [ ] Original minigames (beyond the classic clones)
