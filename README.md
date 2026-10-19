@@ -122,6 +122,7 @@ See [LICENSE.md](LICENSE.md) for the full terms.
 ## 📬 Contact
 
 Instagram: [@salvo_codes](https://www.instagram.com/salvo_codes/)
+Email: [cipriano.salvatore@outlook.com](https://outlook.live.com/mail/?culture=it-it&country=it)
 
 ---
 
