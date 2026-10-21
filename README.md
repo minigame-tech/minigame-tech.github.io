@@ -45,8 +45,8 @@ Each game comes with a menu, an in-game tutorial and keyboard controls, so you c
 | **Frogger** | ✅ Available | ✅ | ✅ |
 | **Pacman** | ✅ Available | ✅ | ❌ |
 | **Space Invaders** | ✅ Available | ✅ | ✅ |
-| **Tetris** | 🔧 In progress | 🔜 | 🔜 |
-| **Snake** | 🗓️ Planned | 🔜 | 🔜 |
+| **Tetris** | ✅ Available | ✅ | ✅ |
+| **Snake** | 🔧 In progress | 🔜 | 🔜 |
 | **2048** | 🗓️ Planned | 🔜 | 🔜 |
 | **Donkey Kong** | 🗓️ Planned | 🔜 | 🔜 |
 
@@ -56,7 +56,8 @@ Each game comes with a menu, an in-game tutorial and keyboard controls, so you c
 |:---|:---|:---|:---|
 | **Frogger** | Arrow keys | `Enter` / `Esc` | Reach the opposite bank 5 times to win |
 | **Pacman** | Arrow keys or `W` `A` `S` `D` | `Enter` / `Esc` | Eat every dot and avoid the ghosts |
-| **SPACE INVADERS** | Arrow key or `A` `D` | `Enter` / `Esc` | Destroy every enemy
+| **SPACE INVADERS** | Arrow key or `A` `D` | `Enter` / `Esc` | Destroy every enemy |
+| **Tetris** | Arrow key or `W` `A` `S` `D` or Space | `P` for pause | Fits the various pieces together |
 
 Both games start with **3 lives**.
 
@@ -95,10 +96,10 @@ chmod +x ./game-name
 - [x] Frogger
 - [x] Pacman
 - [x] Space Invaders
-- [ ] Tetris *(in progress)*
-- [ ] Donkey Kong
-- [ ] Snake
+- [X] Tetris
+- [ ] Snake *(in progress)*
 - [ ] 2048
+- [ ] Donkey Kong
 - [ ] Original minigames (beyond the classic clones)
 
 ## 🐞 Feedback & Bug Reports
