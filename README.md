@@ -24,6 +24,7 @@
 - [About](#-about)
 - [Games](#-games)
 - [Download](#-download)
+- [Android App](#-android-app)
 - [Tech Stack](#-tech-stack)
 - [Roadmap](#-roadmap)
 - [Feedback & Bug Reports](#-feedback--bug-reports)
@@ -80,6 +81,14 @@ chmod +x ./game-name
 **Windows:** executables built with PyInstaller may trigger a *Windows SmartScreen* or antivirus warning, because they are not digitally signed. This is a known false positive for unsigned executables. If you prefer, you can check the files on the [project repository](https://github.com/minigame-tech) before running them.
 
 **System requirements:** a desktop PC running Linux or Windows, a keyboard, and a screen of at least 800×640 pixels.
+
+## 📱 Android App
+
+Minigame Tech is also available as an Android app: a lightweight native wrapper that loads the website, with fullscreen mode and an offline fallback page.
+
+- **App repository:** [minigame-tech-app](https://github.com/minigame-tech/minigame-tech-app)
+
+> **Note:** the app displays the online website, so it needs an internet connection and always shows the latest version. The downloadable executables above are for desktop only.
 
 ## 🛠️ Tech Stack
 
